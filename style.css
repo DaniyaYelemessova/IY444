@@ -339,6 +339,72 @@ span{
 }
 
 
+/* ----------------------Africa css---------------------- */
+
+.africa-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
+.africa-container p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+.season-table {
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.season-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.season-table th, .season-table td {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.season-table th {
+  background: #73405f;
+  color: white;
+  font-size: 20px;
+}
+
+.season-table tr:nth-child(even) {
+  background: #eef6f3;
+}
+
+.season-table h2{
+  margin-bottom: 20px;
+}
+
+
+/* -------------------------------------------- */
+
+.resources-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Resources */
+
+
+
 
   @media (max-width: 1300px) {
     .usa-trip, .statue-history{
@@ -351,12 +417,23 @@ span{
       font-size: 70px;
       text-align: center;
     }
+    .season-table {
+      padding: 40px;
+      }
     
   }
 
 
 
 @media (max-width: 950px) {
+
+  .africa-container{
+    padding: 20px;
+  }
+  .season-table {
+    padding: 40px;
+    }
+
   .toggle-button{
     display: flex;
     top: 2.5rem;
@@ -490,6 +567,10 @@ span{
 
 @media (max-width: 700px) {
 
+  .season-table {
+    padding: 40px;
+  }
+
   h1{
     font-size: 50px;
   }
@@ -529,7 +610,6 @@ span{
 
   .navbar-links li a{
     padding: .5rem 1rem;
-   
   }
 
   .navbar-links.active{

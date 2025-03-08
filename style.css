@@ -391,18 +391,87 @@ span{
   margin-bottom: 20px;
 }
 
-
-/* -------------------------------------------- */
-
+/* Resources */
 .resources-container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
+  max-width: 900px;
+  margin: 40px auto;
   text-align: center;
 }
 
-/* Resources */
+.resources-container h4 {
+  font-size: 30px;
+  margin-top: 50px;
+  color: #9a9a9f;
+  letter-spacing: 3px;
+}
 
+.card-resources {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin: 20px 0;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.card-resources:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.rank {
+  font-size: 36px;
+  font-weight: bold;
+  color: #73405f;
+  margin-right: 30px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #eaca4a;
+  color: white;
+}
+
+.card-content {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-content p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.card-content a.visit-btn {
+  background-color: #eaca4a;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.card-content a.visit-btn:hover {
+  background-color: #73405f;
+}
+
+.card-content a.visit-btn:active {
+  background-color: #73405f;
+}
 
 
 
@@ -420,6 +489,11 @@ span{
     .season-table {
       padding: 40px;
       }
+
+      .resources-container {
+        padding: 50px;
+      }
+      
     
   }
 

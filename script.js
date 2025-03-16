@@ -22,3 +22,6 @@ button.addEventListener("click", goToResource)
 function goToResource(){
   window.location.href = "resources.html";
 }
+
+
+

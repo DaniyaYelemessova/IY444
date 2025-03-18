@@ -7,10 +7,104 @@
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-  
-  
+  <nav class="navbar">
+    <div class="brand-title">
+      <img src="../images/logo.png" alt="logo" width="150px" />  <!-- Website logo -->
+    </div>
+    <a href="#" class="toggle-button"> <!-- Toggle button for responsive navigation (e.g., for mobile) -->
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="hongKong.html">Hong Kong </a></li>
+        <li><a href="seychelles.html">Botswana</a></li>
+        <li><a href="australia.html">Sydney</a></li>
+        <li><a href="usa.html">New York</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Introduction Block -->
+  <div class="color-block">
+    <p>
+      This website is created by <span>Daniya Yelemessova</span> ♥ based on my
+      personal travel experiences.
+    </p>
+  </div>
 
 
+  <div class="quiz-container">
+    <div class="quiz">
+        <label for="text" class="quiz-text">1. What is the name of the famous bridge in Sydney??</label>
+        <input type="radio"  name="question1"> Golden Gate Bridge
+        <input type="radio"  name="question1"id="answer1"> Harbour Bridge
+        <input type="radio" name="question1"> Brooklyn Bridge
+        <input type="radio" name="question1"> Tower Bridge
+        <p id="rightAnswer"></p>
+    </div>
+
+    <div class="quiz">
+        <label for="text" class="quiz-text">2. What is the highest point on Hong Kong Island????</label>
+        <input type="radio"  name="question2" id="answer2"> Victoria Peak
+        <input type="radio" name="question2" id="answerWrong1"> Lion Rock
+        <input type="radio" name="question2" id="answerWrong1">  Kowloon Peak
+        <input type="radio" name="question2" id="answerWrong1"> Lantau Peak
+        <p id="rightAnswer1"></p>
+    </div>
+
+    <div class="quiz">
+        <label for="text" class="quiz-text">3. What is the height of the Statue of Liberty from base?</label>
+        <input type="radio" name="question3"> 100 meters
+        <input type="radio" name="question3"> 150 meters
+        <input type="radio" name="question3"> 85 meters
+        <input type="radio" name="question3" id="answer3">93 meters
+        <p id="rightAnswer2"></p>
+    </div>
+
+    <div class="quiz">
+        <label for="text" class="quiz-text">4. What is one characteristic of the Shoulder Season?</label>
+        <input type="radio" name="question4"> High tourist season
+        <input type="radio" name="question4" id="answer4"> good wildlife before rain starts 
+        <input type="radio" name="question4"> Extremely low temperatures
+        <input type="radio" name="question4"> Heavy rainfall 
+        <p id="rightAnswer3"></p>
+    </div>
+
+  
+
+    <button id="btn">Submit</button>
+    
+
+</div>
+
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <ul class="footer-links">
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="hongKong.html">Hong Kong</a></li>
+      <li><a href="seychelles.html">Botswana</a></li>
+      <li><a href="australia.html">Sydney</a></li>
+      <li><a href="usa.html">New York</a></li>
+    </ul>
+  </div>
+
+  <p class="copyright">© 2025 Daniya Yelemessova. All Rights Reserved.</p>
+</footer>
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+ 
   <script src="../script.js"></script>
 </body>
 </html>

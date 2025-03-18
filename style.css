@@ -660,6 +660,10 @@ span{
       .sydney-content  ul{
         padding: 50px;
       }
+
+      input{
+        margin-top: 30px;
+      }
     
   }
 
@@ -839,6 +843,11 @@ span{
 input{
   margin-top: 30px;
 }
+.quiz{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 }
 
@@ -940,7 +949,7 @@ input{
 
 
 .gallery img {
-  width: calc(100% - 10px); /* 1 column on very small screens */
+  width: calc(100% - 10px); 
 }
 
 .learning-objectives {
@@ -968,10 +977,14 @@ input{
 }
   
 /* --------quiz------ */
+
+
 .quiz{
-  width: 80%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
+
 
 input{
   margin-top: 50px;
@@ -984,9 +997,6 @@ label{
 }
 
 
-#btn{
-width: 50%;
-}
 
 }
 
@@ -1012,6 +1022,20 @@ width: 50%;
 .rank{
   display: none;
 }
+
+.quiz-text {
+  font-size: 15px;
+  
+}
+
+.quiz{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 }
 
 
@@ -1095,6 +1119,10 @@ label:hover {
   background-color: #eaca4a;
   transform: scale(1.05);
   color: #1c1c1d;
+}
+
+input{
+  margin-top: 20px;
 }
 
 #result{
